@@ -1,0 +1,20 @@
+<resources>
+
+    <!--  这个是加入的代码  上到下弹出 -->
+    <style name="top_anim_style">
+        <item name="android:windowEnterAnimation">@anim/push_top_to_bottom</item>
+        <!-- 指定显示的动画xml -->
+        <!--<item name="android:windowExitAnimation">@anim/pophidden_anim</item>-->
+        <!-- 指定消失的动画xml -->
+    </style>
+
+    <!--  这个是加入的代码 -->
+    <style name="bottom_anim_style">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_to_top</item>
+        <!-- 指定显示的动画xml -->
+
+        <!--<item name="android:windowExitAnimation">@anim/pophidden_anim</item>-->
+        <!-- 指定消失的动画xml -->
+    </style>
+
+</resources>
